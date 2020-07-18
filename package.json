@@ -1,0 +1,8 @@
+{
+  "name": "airtable-add-record-on-schedule",
+  "author": "Yusuf Musleh <yusuf@stdlib.com>",
+  "publish": false,
+  "dependencies": {
+    "lib": "latest"
+  }
+}

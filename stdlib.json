@@ -1,0 +1,22 @@
+{
+  "name": "ymusleh/airtable-add-record-on-schedule",
+  "timeout": 10000,
+  "connector": false,
+  "events": {
+    "functions/events/scheduler/daily.js": {
+      "name": "scheduler.daily",
+      "subtype": {
+        "time": "17:00 (5:00pm)",
+        "timezone": "America — Los Angeles/San Francisco, US (-08:00, -07:00 DST)"
+      }
+    },
+    "functions/events/scheduler/weekly.js": {
+      "name": "scheduler.weekly",
+      "subtype": {
+        "weekday": "Friday",
+        "time": "17:00 (5:00pm)",
+        "timezone": "America — Los Angeles/San Francisco, US (-08:00, -07:00 DST)"
+      }
+    }
+  }
+}
